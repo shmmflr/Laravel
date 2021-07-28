@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Vazir' !important;
+}
+.my-form{
+    background-color:#dee2e647;
+    padding: 30px 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 16px 1px #a39b9b;
+}

@@ -16,7 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/page', [\App\Http\Controllers\PageController::class, 'index']);
-Route::get('/post', [\App\Http\Controllers\PostController::class, 'index']);
-Route::get('/post/store', [\App\Http\Controllers\PostController::class, 'store']);
-Route::get('/post/update', [\App\Http\Controllers\PostController::class, 'update']);
+Route::get('post', [\App\Http\Controllers\PostController::class, 'index']);
+Route::get('post/store', [\App\Http\Controllers\PostController::class, 'store']);
+Route::get('post/update', [\App\Http\Controllers\PostController::class, 'update']);
+Route::get('post/del', [\App\Http\Controllers\PostController::class, 'delete']);
+
